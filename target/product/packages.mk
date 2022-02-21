@@ -11,6 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+$(call inherit-product, vendor/aospa/fonts/fonts.mk)
 
 # Abstruct
 PRODUCT_PACKAGES += \
@@ -26,6 +27,10 @@ PRODUCT_PACKAGES += \
 
 # Set compiler filter "verify" and disable AOT-compilation in dexpreopt
 RELAX_USES_LIBRARY_CHECK := true
+
+PRODUCT_PACKAGES += \
+    android.hardware.authsecret@1.0.vendor
+
 
 # HIDL
 PRODUCT_PACKAGES += \

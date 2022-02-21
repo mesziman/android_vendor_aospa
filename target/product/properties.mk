@@ -40,6 +40,9 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
 
+# Fingerprint
+BUILD_FINGERPRINT = google/raven/raven:12/SQ1D.220205.003/8069835:user/release-keys
+
 # Disable RescueParty due to high risk of data loss
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.disable_rescue=true
