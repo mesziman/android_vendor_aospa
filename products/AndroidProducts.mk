@@ -25,8 +25,9 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/oriole/aospa_oriole.mk \
     $(LOCAL_DIR)/panther/aospa_panther.mk \
     $(LOCAL_DIR)/phoenix/aospa_phoenix.mk \
-    $(LOCAL_DIR)/raven/aospa_raven.mk
-
+    $(LOCAL_DIR)/raven/aospa_raven.mk \
+    $(LOCAL_DIR)/umi/aospa_umi.mk
+ 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
     aospa_alioth-userdebug \
@@ -40,4 +41,5 @@ COMMON_LUNCH_CHOICES += \
     aospa_oriole-userdebug \
     aospa_panther-userdebug \
     aospa_phoenix-userdebug \
-    aospa_raven-userdebug
+    aospa_raven-userdebug \
+    aospa_umi-userdebug
