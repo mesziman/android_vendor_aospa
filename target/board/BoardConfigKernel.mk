@@ -27,9 +27,7 @@ ifeq ($(KERNEL_NEW_GCC_SUPPORT),true)
 endif
 
 # Enable SDLLVM Support.
-ifneq (,$(filter 3.18 4.4 4.9, $(TARGET_KERNEL_VERSION)))
-KERNEL_SD_LLVM_SUPPORT ?= true
-endif
+#KERNEL_SD_LLVM_SUPPORT := true
 
 # Qualcomm kernel.
 ifeq ($(TARGET_PREBUILT_KERNEL),)

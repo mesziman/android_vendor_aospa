@@ -27,8 +27,11 @@ PRODUCT_PACKAGES += \
     FontInterOverlay \
     FontLinotteSourceOverlay \
     FontManropeOverlay \
-    FontOnePlusSansOverlay  \
     FontOppoSansOverlay \
+    FontOnePlusOverlay  \
+		FontSanFranciscoDisplayProSourceOverlay \
+		FontSamsungOneOverlay \
+    FontRobotoOverlay \
     FontUrbanistOverlay \
     IconPackCircularAndroidOverlay \
     IconPackCircularLauncherOverlay \
