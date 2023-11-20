@@ -22,7 +22,7 @@
     <overlay android:targetPackage="android"
         android:category="android.theme.customization.font"
         android:priority="1"/>
-    <application android:label="SanFranciscoDisplayPro" android:hasCode="false">
+    <application android:label="@string/font_sanfrancisco_source_overlay" android:hasCode="false">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
             android:value="sanfrancisco,sanfrancisco-semi-bold,sanfrancisco-bold" />
