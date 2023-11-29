@@ -5,3 +5,4 @@ hal_client_domain(platform_app, hal_aospa_powershare)
 
 # Allow LineageHealth HAL service to be found
 hal_client_domain(platform_app, hal_lineage_health)
+allow platform_app nfc_service:service_manager find;
