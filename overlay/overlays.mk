@@ -33,6 +33,7 @@ PRODUCT_PACKAGES += \
 		FontSamsungOneOverlay \
     FontRobotoOverlay \
     FontUrbanistOverlay \
+    FontAlbertSansOverlay \
     IconPackCircularAndroidOverlay \
     IconPackCircularLauncherOverlay \
     IconPackCircularSettingsOverlay \
