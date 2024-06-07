@@ -20,14 +20,14 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86/aarch
 TARGET_KERNEL_CROSS_COMPILE_ARM32_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86/arm/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-
 
 # Enable LLVM Support if GCC is not used.
-KERNEL_LLVM_SUPPORT ?= true
+KERNEL_LLVM_SUPPORT := true
 
 ifeq ($(KERNEL_NEW_GCC_SUPPORT),true)
     KERNEL_LLVM_SUPPORT := false
 endif
 
 # Enable SDLLVM Support.
-#KERNEL_SD_LLVM_SUPPORT := true
+KERNEL_SD_LLVM_SUPPORT := true
 
 # Qualcomm kernel.
 ifeq ($(TARGET_PREBUILT_KERNEL),)
